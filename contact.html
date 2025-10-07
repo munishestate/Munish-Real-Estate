@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - DreamHome Realty</title>
+    <meta
+      name="description"
+      content="Get in touch with DreamHome Realty. Contact our expert real estate team for personalized service and property assistance."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <h2>DreamHome</h2>
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="properties.html" class="nav-link">Properties</a></li>
+          <li><a href="blog.html" class="nav-link">Blog</a></li>
+          <li><a href="contact.html" class="nav-link active">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Contact Hero -->
+    <section class="page-hero">
+      <div class="container">
+        <h1 data-aos="fade-up">Get In Touch</h1>
+        <p data-aos="fade-up" data-aos-delay="100">
+          Ready to find your dream home? Let's start the conversation
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-grid">
+          <!-- Contact Form -->
+          <div class="contact-form-container" data-aos="fade-right">
+            <h2>Send Us a Message</h2>
+            <form class="contact-form" id="contactForm">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" />
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <select id="subject" name="subject" required>
+                  <option value="">Select a subject</option>
+                  <option value="buying">I'm looking to buy</option>
+                  <option value="selling">I want to sell my property</option>
+                  <option value="investment">Investment opportunities</option>
+                  <option value="general">General inquiry</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                  placeholder="Tell us about your real estate needs..."
+                ></textarea>
+              </div>
+              <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="contact-info" data-aos="fade-left">
+            <h2>Contact Information</h2>
+            <div class="contact-details">
+              <div class="contact-item">
+                <div class="contact-icon">📞</div>
+                <div class="contact-text">
+                  <h4>Phone</h4>
+                  <p>(555) 123-4567</p>
+                  <p>Mon - Fri: 9:00 AM - 6:00 PM</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">✉️</div>
+                <div class="contact-text">
+                  <h4>Email</h4>
+                  <p>info@dreamhome.com</p>
+                  <p>We'll respond within 24 hours</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">📍</div>
+                <div class="contact-text">
+                  <h4>Office Location</h4>
+                  <p>123 Real Estate Avenue</p>
+                  <p>City, State 12345</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Media -->
+            <div class="social-media">
+              <h4>Follow Us</h4>
+              <div class="social-links">
+                <a href="#" class="social-link">📘 Facebook</a>
+                <a href="#" class="social-link">📷 Instagram</a>
+                <a href="#" class="social-link">🐦 Twitter</a>
+                <a href="#" class="social-link">💼 LinkedIn</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Visit Our Office</h2>
+        <div class="map-container" data-aos="fade-up" data-aos-delay="100">
+          <div class="map-placeholder">
+            <img
+              src="/placeholder.svg?height=400&width=800"
+              alt="Office Location Map"
+            />
+            <div class="map-overlay">
+              <p>📍 123 Real Estate Avenue, City, State 12345</p>
+              <button class="directions-btn">Get Directions</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>DreamHome Realty</h3>
+            <p>Your trusted partner in finding the perfect home</p>
+          </div>
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="properties.html">Properties</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Contact Info</h4>
+            <p>📞 (555) 123-4567</p>
+            <p>✉️ info@dreamhome.com</p>
+            <p>📍 123 Real Estate Ave, City, State 12345</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 DreamHome Realty. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
