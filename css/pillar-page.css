@@ -166,6 +166,11 @@ h1, h2, h3, h4 {
 
 .pillar-content p {
   margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.pillar-content strong {
+    font-size: x-large;
 }
 
 section {
@@ -174,11 +179,11 @@ section {
   border-bottom: 1px solid #eee;
 }
 
-section h2 {
+/*section h2 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
   color: var(--primary-color);
-}
+}*/
 
 ol, ul {
   margin-left: 1.5rem;
@@ -188,6 +193,7 @@ ol, ul {
   display: inline-block;
   margin-top: 1rem;
   font-weight: 500;
+  color: #665743;
 }
 
 .related-articles {
@@ -266,7 +272,7 @@ ol, ul {
   background: var(--bg-light);
 }
 
-/* ======= FAQ Section ======= */
+/* ======= FAQ Section ======= 
 details {
   margin-bottom: 1rem;
   border: 1px solid #ddd;
@@ -283,7 +289,7 @@ summary {
 details p {
   margin-top: 0.5rem;
   font-size: 0.95rem;
-}
+} */
 
 /* ======= Footer ======= */
 footer {
