@@ -25,7 +25,7 @@ body {
 }
 
 a {
-  color: var(--primary-color);
+  color: var(--text-color);
   text-decoration: none;
   background: none;
 }
@@ -96,6 +96,7 @@ h1, h2, h3, h4 {
 .dropdown-menu li {
   padding: 0.5rem 1rem;
   white-space: nowrap;
+  list-style: none;
 }
 
 .dropdown-menu li a {
@@ -117,6 +118,11 @@ h1, h2, h3, h4 {
   text-decoration: none;
 }
 
+.menu a:hover,
+.menu a.active {
+  color: var(--third-color);
+}
+
 /* ======= Main Layout ======= */
 .pillar-container {
   display: grid;
@@ -124,7 +130,7 @@ h1, h2, h3, h4 {
   gap: 2rem;
   max-width: var(--max-width);
   margin: 3rem auto;
-  padding: 0 2rem;
+  padding: 0 10px;
 }
 
 /* ======= Table of Contents ======= */
