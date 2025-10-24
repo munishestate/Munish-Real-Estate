@@ -12,12 +12,12 @@
   </url>
   <url>
     <loc>https://munishassociate.in/properties</loc>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://munishassociate.in/blog</loc>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
@@ -26,8 +26,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://munishassociate.in/pillar-pages/pillar-page-1</loc>
-    <changefreq>weekly</changefreq>
+    <loc>https://munishassociate.in/pillar-pages/DDA-Flats-in-Dwarka:-2025-Complete-Guide</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://munishassociate.in/supporting-blogs/Step-by-Step-DDA-Registration-Process-for-Dwarka-2025</loc>
+    <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
 </urlset>
