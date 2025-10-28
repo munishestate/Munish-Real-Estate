@@ -184,7 +184,6 @@ h1, h2, h3, h4 {
 }
 
 section {
-  margin-bottom: 3rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid #eee;
 }
@@ -199,6 +198,12 @@ ol, ul {
   margin-left: 1.5rem;
 }
 
+.related-articles ul {
+  margin: 0;
+  /*list-style: disc;*/
+  padding-left: 1.5rem;
+}
+
 .related-link {
   display: inline-block;
   margin-top: 1rem;
@@ -208,19 +213,13 @@ ol, ul {
 
 .related-articles {
   /*background: var(--bg-light);*/ 
-  padding: 1rem;
+  /*padding: 1rem;*/
   border-radius: 8px;
   margin-top: 1rem;
 }
 
 .related-articles h4 {
   margin-bottom: 0.5rem;
-}
-
-.related-articles ul {
-  margin: 0;
-  list-style: disc;
-  padding-left: 1.5rem;
 }
 
 .related-articles a {
