@@ -163,15 +163,17 @@ body {
 .hero-content {
   text-align: center;
   color: var(--white);
-  max-width: 600px;
+  max-width: 1000px;
   padding: 0 20px;
 }
 
 .hero-title {
+  color: var(--text-dark);
   font-size: 3.5rem;
   font-weight: 700;
-  margin-bottom: 1rem;
-  line-height: 1.2;
+  margin-bottom: 10rem;
+  line-height: 1.5;
+  padding-top: 2rem;
 }
 
 .hero-subtitle {
@@ -192,6 +194,7 @@ body {
   border: none;
   cursor: pointer;
   font-size: 1rem;
+  margin-top: 11rem;
 }
 
 .cta-button:hover {
