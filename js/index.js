@@ -243,4 +243,4 @@ style.textContent = `
 `
 document.head.appendChild(style)
 
-console.log("DreamHome Realty website loaded successfully!")
+console.log("Munish Associate website loaded successfully!")
